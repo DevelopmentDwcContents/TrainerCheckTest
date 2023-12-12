@@ -40,5 +40,5 @@ yarn-debug.log*
 .yarn-integrity
 
 # dockerfile
-./dockerfile
-./docker-compose.yml
+dockerfile
+docker-compose.yml
