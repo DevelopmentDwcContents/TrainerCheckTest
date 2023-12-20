@@ -38,8 +38,6 @@ class BooksController < ApplicationController
     redirect_to books_path
   end
 
-  private
-
   def book_params
     params.require(:book).permit(:title, :body)
   end
@@ -49,5 +47,8 @@ class BooksController < ApplicationController
     unless @book.user == current_user
       redirect_to books_path
     end
+  end
+
+  def create
   end
 end
