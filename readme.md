@@ -26,5 +26,6 @@ $ sh entrypoint.sh
 | 両方 1回目     | `$ sh Both-1.sh`        |
 | 両方 2回目     | `$ sh Both-2.sh`        |
 | トレーナーチェック1 | `$ sh TrainerCheck1.sh`  |
+|||
 | トレーナーチェック2: 1回目 | `$ sh TrainerCheck2-1.sh` |
 | トレーナーチェック2: 2回目 | `$ sh TrainerCheck2-2.sh` |
