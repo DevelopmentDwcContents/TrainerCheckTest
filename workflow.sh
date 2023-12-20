@@ -11,11 +11,13 @@ echo "stash_num = $1"
 for git_branch in $branch_arr; do
     echo "branch = $git_branch"
     git switch $git_branch
-    touch question_description.md
-    git stash apply $1
-    git add .
-    git commit -m "update"
-    git push origin $git_branch
+    read -p "Hit enter: "
+    git branch
+    # touch question_description.md
+    # git stash apply $1
+    # git add .
+    # git commit -m "update"
+    # git push origin $git_branch
 done
 
 git switch main
