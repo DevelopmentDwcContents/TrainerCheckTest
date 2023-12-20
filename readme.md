@@ -16,47 +16,14 @@ $ sh entrypoint.sh
 > 
 > ######################################################################
 
-## トレーナーチェック1
-```shell
-$ sh TrainerCheck1.sh
-```
-
-## 練習場: マナー1回目
-```shell
-$ sh Manner-1.sh
-```
-
-## 練習場: マナー2回目
-```shell
-$ sh Manner-2.sh
-```
-
-## 練習場: 対応1回目
-```shell
-$ sh Interaction-1.sh
-```
-
-## 練習場: 対応2回目
-```shell
-$ sh Interaction-2.sh
-```
-
-## 練習場: 両方1回目
-```shell
-$ sh Both-1.sh
-```
-
-## 練習場: 両方2回目
-```shell
-$ sh Both-2.sh
-```
-
-## トレーナーチェック2: 1回目
-```shell
-$ sh TrainerCheck2-1.sh
-```
-
-## トレーナーチェック2: 2回目
-```shell
-$ sh TrainerCheck2-2.sh
-```
+| セクション        | コマンド               |
+| ----------------- | --------------------- |
+| トレーナーチェック1 | `$ sh TrainerCheck1.sh`  |
+| 練習場: マナー1回目    | `$ sh Manner-1.sh`      |
+| 練習場: マナー2回目    | `$ sh Manner-2.sh`      |
+| 練習場: 対応1回目    | `$ sh Interaction-1.sh` |
+| 練習場: 対応2回目    | `$ sh Interaction-2.sh` |
+| 練習場: 両方1回目     | `$ sh Both-1.sh`        |
+| 練習場: 両方2回目     | `$ sh Both-2.sh`        |
+| トレーナーチェック2: 1回目 | `$ sh TrainerCheck2-1.sh` |
+| トレーナーチェック2: 2回目 | `$ sh TrainerCheck2-2.sh` |
