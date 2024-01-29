@@ -30,5 +30,3 @@ $ sh entrypoint.sh
 | トレーナーチェック1 | `$ sh TrainerCheck1.sh`  |
 | トレーナーチェック2: 1回目 | `$ sh TrainerCheck2-1.sh` |
 | トレーナーチェック2: 2回目 | `$ sh TrainerCheck2-2.sh` |
-
-aaaa
