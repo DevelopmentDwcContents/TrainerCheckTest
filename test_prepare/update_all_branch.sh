@@ -12,7 +12,11 @@ for git_branch in $branch_arr; do
     echo "branch = $git_branch"
     git switch $git_branch
     git branch
-    git stash apply $1
+    # git stash apply $1
+    # git add .
+    # git commit -m "update"
+    # git push origin $git_branch
+    git rm entrypoint.sh
     git add .
     git commit -m "update"
     git push origin $git_branch
