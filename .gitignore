@@ -42,5 +42,3 @@ yarn-debug.log*
 # dockerfile
 dockerfile
 docker-compose.yml
-
-/.idea
